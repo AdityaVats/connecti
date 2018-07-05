@@ -5,15 +5,21 @@
 
 
 #posts-home{
-	
+	background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/04/Plain-Wooden-BAckground-For-deskop.jpg);
 	display: flex;
 	justify-content: space-evenly;
 	padding-top: 25px;
+	color: wheat;
 
+
+	a{
+		color:aquamarine;
+	}
 	.deewar-posts{
+
 		width: 50%;
-		border-right: 1px dashed #007effe0;
-		border-left: 1px dashed #007effe0;
+		 border-right: 2px dashed fuchsia;
+    	 border-left: 2px dashed fuchsia;
 
 		.new-post-form{
 			display: flex;
@@ -23,6 +29,10 @@
 				flex-direction: column;
 			}
 			
+		}
+		textarea{
+			
+			border-radius: 50px;
 		}
 
 		.posts-list{

@@ -47,9 +47,12 @@
 							<% if user_signed_in? %>
 							<%= form_for @comment do |f| %>
 								<%= f.hidden_field :post_id, value: post.id %>
+								
+								<%= f.label :comment %>
 
-								<%= f.label :content %>
+
 								<%= f.text_area :content %>
+							
 
 								<%= f.submit %>
 							<% end %>
